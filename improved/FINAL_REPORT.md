@@ -603,25 +603,6 @@ This section provides detailed descriptions of EVERY file in the project, explai
 - Each test takes longer → absolute savings increase
 - System noise becomes negligible
 
-### The Iron Triangle of Optimization
-
-```
-        Accuracy
-           /\
-          /  \
-         /    \
-        /______\
-     Speed    Coverage
-```
-
-**You can only pick 2 of 3:**
-- **Myopic:** Speed + partial coverage = poor accuracy
-- **Section:** Speed + full coverage = good accuracy
-- **Hybrid:** Accuracy + full coverage = modest speed
-- **Original:** Accuracy + full coverage = slow
-
-**For scientific work: Choose accuracy + coverage (use hybrid)**
-
 ### Complexity Analysis
 
 ```
