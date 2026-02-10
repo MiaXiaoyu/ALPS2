@@ -1,5 +1,5 @@
 #!/bin/sh
-/usr/bin/invoke_app "$@" -t ALPS2 \
+/usr/bin/invoke_app "$@" -t alps2 \
     -C "start_jupyter -T @tool -t improved/main.ipynb" \
     -u anaconda-7 \
     -r none \
