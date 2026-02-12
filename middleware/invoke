@@ -1,6 +1,6 @@
 #!/bin/sh
 /usr/bin/invoke_app "$@" -t alps2 \
-    -C "start_jupyter -T @tool -t improved/main.ipynb" \
+    -C "start_jupyter -A -T @tool -t improved/main.ipynb" \
     -u anaconda-7 \
     -r none \
     -w headless
