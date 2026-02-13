@@ -45,8 +45,10 @@ import pandas as pd
 from numpy.linalg import inv,det
 from scipy.optimize import minimize
 import scipy.stats
+import warnings
+warnings.filterwarnings("ignore", "Values in x were outside bounds during a minimize step")
 
-########################### ########################### ########################### 
+########################### ########################### ###########################
 ########################### GENERAL FUNCTIONS ####################################  
 ########################### ########################### ########################### 
 
